@@ -28,7 +28,11 @@ const Login =()=>{
                     Login
                 </button>
             </form>
+            <p className="link-text">
+                Don't have an account?<Link to="/register">Register here</Link>
+            </p>
         </div>
+
     );
 };
-export default Login.jsx;
+export default Login;
