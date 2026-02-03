@@ -1,5 +1,5 @@
-import "./Register.css";
 import { useEffect, useState } from "react";
+import "./Register.css";
 import { Link, useNavigate } from "react-router-dom";
 const Register = () => {
   // state declaration section
