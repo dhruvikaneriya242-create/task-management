@@ -49,6 +49,7 @@ const Login = () => {
         data.password===formData.password
       ) {
         alert("Login successful");
+        localStorage.setItem('loginData',JSON.stringify(formData))
         navigate("/dashboard");
         
       }else{
