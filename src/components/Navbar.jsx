@@ -1,21 +1,16 @@
-import React from 'react'
-import '../index.css';
+import React from "react";
+import "../index.css"
 
-const Navbar = ({title,onLogout}) => {
+function Navbar({title,onLogout,onAddTaskBtnClick,isFormOpen}) {
   return (
     <nav className="navbar">
-        <div className="navbar-brand">
-            <h1>{title}</h1>
-        </div>
-    
-    <div className="navbar-actions">
-        <button className="btn-primary" >
-            Add Task
-        </button>
-        <button className="btn-secondary" onClick={onLogout}>
-            Logout
-        </button>
-    </div>
+      <div className="navbar-brand">
+        <h1>{title}</h1>
+      </div>
+      <div className="navbar-actions">
+        <button className={isFormOpen?"btn-secondry":"btn-primary"} onClick={onAddTaskBtnClick}>{isFormOpen?"Close":"Add Task"}</button>
+        <button className="btn-secondary" onClick={onLogout}>Logout</button>
+      </div>
     </nav>
   );
 }

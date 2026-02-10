@@ -1,12 +1,36 @@
 {
-    "task":[
-        {
-            "id":"1",
-            "title":"Welcome Task",
-            "description":"This is your task served from json-server",
-            "dueDate":"2025-09-31",
-            "completed":false,
-            "priority":"Medium"
-        }
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Welcome Task",
+      "description": "This is your task served from json-server",
+      "dueDate": "2025-09-31",
+      "completed": false,
+      "priority": "Medium"
+    },
+    {
+      "id": "a152",
+      "title": "welcom task 2",
+      "desc": "this is task served grom json clint",
+      "date": "2026-02-07",
+      "priority": "Medium",
+      "completed": false
+    },
+    {
+      "id": "40a9",
+      "title": "task 3",
+      "desc": "this is task ",
+      "date": "2026-02-06",
+      "priority": "Low",
+      "completed": false
+    },
+    {
+      "id": "24f4",
+      "title": "task4",
+      "desc": "this is task 4",
+      "date": "2026-02-06",
+      "priority": "High",
+      "completed": false
+    }
+  ]
 }
